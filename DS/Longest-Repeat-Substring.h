@@ -7,7 +7,7 @@ using namespace std;
 // 最长重复子串（可重叠） Longest Repeat Substring
 class LRSSolution {
 public:
-	// 基本算法 O(n^2)
+	// 基本算法 O(n^3)
 	int repeatLen(char* p, char* q) {
 		int len = 0;
 		while (*p && *q && *p++==*q++)
