@@ -49,7 +49,7 @@ public:
 
 		for (int i=0; i<n-1; i++)
 		{
-			int len = repeatLen(suffix[i], suffix[i++]);
+			int len = repeatLen(suffix[i], suffix[i+1]);
 			if (len>maxLen)
 			{
 				maxLen = len;
